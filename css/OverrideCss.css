@@ -1,0 +1,493 @@
+/**************************************************/
+/*                    WebFonts                    */
+/**************************************************/
+
+
+
+/**************************************************/
+/*                     Layout                     */
+/**************************************************/
+body {
+background:url('../images/bg1.png') repeat-x #fff; border-bottom:90px solid #184A33;
+}
+
+/*Contains all elements within the body*/
+.wrapper {
+padding:0px;
+
+}
+
+main {
+	padding:130px 10px;
+}
+
+/*Contain all data area items other than Transactions on Account Page*/
+main > .grid {
+
+}
+
+/*Contains the Utility Navigation, Banner, and Primary Navigation*/
+header {
+
+}
+
+/*Banner*/
+header div.grid__unit ~ div.grid__unit:nth-child(2) {
+width:300px;
+}
+
+/*Define Logo Here*/
+.bank-branding {
+background:url('../images/logo3.png') no-repeat; height:94px; width:284px; margin:56px 0 10px 0;
+}
+
+/*Used around data areas*/
+.content--block{
+    /*background-color:#ffffff;*/
+	color:#184A33;
+}
+
+/*Additional Selectors For Data Tables*/
+.content--block, #table--transactions, .checkfree-widget-container{
+
+}
+div.dropdown{
+	/*background:#fff; padding:0 10px; border:1px solid #dfdfdf;*/
+}
+div[data-bind*="hasFinishedProcessing"], #tranLegend {
+
+}
+#transfer .content--block, #download .content--block, div.dropdown  .content--block{
+	background:#ffffff;
+}
+div.dropdown  .content--block {
+
+}
+
+/*Padding For Checkfree Widget*/
+.checkfree-widget-container {
+	margin:0px;
+	padding: 10px 0px 5px 0px;
+}
+
+/*Home Page Advertisement*/
+.ad-container iframe{
+	display:none;
+}
+.ad-container {
+	width:100%;
+	height:;
+	background-image:;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+/**************************************************/
+/*                     Font                       */
+/**************************************************/
+/*Fonts should only be defined as pixels on the html element. Other elements should use REM units.*/
+html {
+	font-size:14px;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size:1rem;
+}
+
+/**************************************************/
+/*                   ************************     */
+/**************************************************/
+
+/*print and edit account buttons*/
+
+#printSpecial{color:#184A33;}
+#printSpecial:hover{text-decoration:none;}
+#filterButton {color:#184A33;}
+#printTransactions > svg {color:#184A33;}
+#accountsForm > div.grid > div > div.cf > ul > li:nth-child(1) > button {color:#184A33;}
+
+/*Link colors. To target data section only add main in front of the selector*/
+a, a:visited {
+	color:#008000;
+}
+a:active {
+	color:#008000;
+}
+
+a:hover{text-decoration:underline;}
+p {
+    color:#888;
+}
+a.btn--acctCreate {
+	font-size:1rem;
+	color:#008000;
+}
+
+/*Negative Account Balance*/
+.neg--balance {
+	color:#ff0000;
+}
+
+/*Action Buttons*/
+.btn--default {
+	background-color:#184a33;
+	color:#ffffff;
+}
+.btn--default:hover {
+	background-color:#9c9492;
+	color:#ffffff;
+}
+.btn--link {
+	color:#58595C;
+}
+.btn--link:hover {
+	color:#58595C;
+}
+.btn--primary, a.btn--primary {
+	background:#184a33;
+	color:#ffffff;
+}
+.btn--primary:hover, a.btn--primary:hover {
+	background:#9c9492;
+	color:#ffffff;
+}
+.btn--thead, .header--non-sortable, .table--underlined th {
+	color:#ffffff;
+}
+
+/*Alerts*/
+.badge {
+	background:#007ec2;
+	color:#ffffff;
+}
+
+/*MFA*/
+.mfa-divider {
+	background:#dfdfdf;
+}
+.mfa-divider:before {
+	background:#ffffff;
+}
+
+/*Data Tables*/
+.text--plain {
+	color:#888;
+}
+.slat {
+	border-color:#dfdfdf;
+}
+.table--underlined>thead>tr>th, .table--underlined>tbody>tr>th, .table--underlined>tbody>tr>td {
+	border-bottom:1px solid #dfdfdf;
+}
+.table--underlined>thead tr:last-child th {
+	border-bottom-width:2px;
+}
+.table--underlined>tbody tr:last-child td, .table--underlined .no-border {
+	border-bottom-width:0;
+}
+.table--underlined>tfoot td {
+	border-top:1px solid #dfdfdf;
+}
+thead th {
+	background: #58595C;
+}
+.arrow {
+	border-color:#dfdfdf;
+}
+.arrow--top-right:after {
+	border-bottom-color:#dfdfdf;
+}
+
+/*OPTIONAL FONTS*/
+/*Data Area Header Dropdown - Account page*/
+main div.grid:nth-child(1)  div.grid__unit:nth-child(1) div.dropdown ul li , main div.grid:nth-child(1)  div.grid__unit:nth-child(1) div.dropdown ul li a {
+
+}
+main div.grid:nth-child(1)  div.grid__unit:nth-child(1) div.dropdown ul li , main div.grid:nth-child(1)  div.grid__unit:nth-child(1) div.dropdown ul li a:hover {
+
+}
+main div.grid:nth-child(1)  div.grid__unit:nth-child(1) div.dropdown ul li {
+
+}
+main div.grid:nth-child(1)  div.grid__unit:nth-child(1) div.dropdown ul li:hover {
+
+}
+main div.grid:nth-child(1)  div.grid__unit:nth-child(1) div.dropdown ul li:hover a{
+
+}
+input, select {
+
+}
+h1, h2, h3, .h1, .h2, .h3 {
+ color:#184a33;
+}
+h4, h5, h6, .h4, .h5, .h6 {
+ color:#184a33;
+}
+h1, .h1 {
+	font-size:1.71rem; color:#184a33;
+}
+h2, .h2 {
+	font-size:1.43rem;
+}
+h3, .h3 {
+	font-size:1.28rem;
+}
+h4, .h4 {
+	font-size:1.14rem;
+}
+h5, .h5 {
+	font-size:1rem;
+}
+h6, .h6 {
+	font-size:.86rem;
+}
+
+/*Various alerts messages */
+.alert--error {
+	background:#fbeae9;
+	border-color:#f7d6d3;
+	color:#ad3123;
+}
+.alert--info {
+	background:#d9edf7;
+	border-color:#bce8f1;
+	color:#2e6a87;
+}
+.alert--success {
+	background:#dff0d8;
+	border-color:#d6e9c6;
+	color:#3a703c;
+}
+.alert--warning {
+	background:#fffdd5;
+	border-color:#ffe89e;
+	color:#8c6b33;
+}
+.text--error {
+	color:#ad3123;
+}
+.text--info {
+	color:#2e6a87;
+}
+.text--muted {
+	color:#999;
+}
+.text--success {
+	color:#3a703c;
+}
+.text--warning {
+	color:#8c6b33;
+}
+
+/**************************************************/
+/*            Utility Navigation                  */
+/**************************************************/
+/*Position of Utility Section*/
+header div.grid:nth-child(1)  div.grid__unit:nth-child(1) {
+height:40px; width:100%; top:0;
+}
+
+/*Welcome Message*/
+.message--welcome {
+margin-top:5px;
+}
+.message--welcome p {color:#fff;
+
+}
+
+/*Utility Navigation Buttons*/
+.nav--utility {
+height:40px;
+}
+.nav--utility li {
+height:30px; margin-top:5px;
+}
+.nav--utility li:first-child {border-left:0px solid transparent;}
+
+.nav--utility a{	font-family: Arial, sans-serif;
+color:#fff; line-height:18px;
+}
+.nav--utility a:hover {
+color:#fff; text-decoration:underline;
+}
+
+/**************************************************/
+/*            Primary Navigation                  */
+/**************************************************/
+/*Primary Navigation Positioning*/
+header div.grid__unit ~ div.grid__unit:nth-child(3) {width: 630px;margin-top:80px;margin-left:110px;}
+
+/*Navigation Buttons*/
+.nav--primary li {
+
+}
+.nav--primary li a{	font-family: Arial, sans-serif;
+color:#184a33; padding:20px 15px; font-size:1.2rem; text-align:center; transition: all .4s ease;
+}
+
+.nav--primary li a:hover{background:url('bullet2.png') right no-repeat;
+}
+.nav--primary li.is--selected a{
+
+}
+.nav--primary li a:hover {
+}
+.nav--primary a {
+
+}
+
+/**************************************************/
+/*            Account Navigation                  */
+/**************************************************/
+.nav--account {
+
+}
+.nav--account li a {color:#008000;font-size:1.5rem;
+
+}
+.nav--account li a:hover {text-decoration:underline;
+
+}
+.nav--account li.is--selected a {
+
+}
+
+/**************************************************/
+/*                   Footer                       */
+/**************************************************/
+.page--footer {
+ padding-bottom:0px;
+ margin-bottom:-75px;
+ position:relative;
+ background:#184A33;
+}
+footer nav{
+
+}
+footer p {
+color:#fff;
+}
+footer a {
+color:#fff; font-size:16px; line-height:32px; margin-top:10px;
+}
+
+footer a:visited {
+color:#fff;
+}
+footer a:hover {color:#ffffff; text-decoration:underline;}
+/*member fdic color*/ p.float--left.padding-left--add{color:#fff;font-size:0.9rem;}
+/*member fdic color*/ p.float--right.padding-right--add{color:#fff;font-size:0.9rem;}
+
+/**************************************************/
+/*                Media Queries                   */
+/**************************************************/
+@media screen and (min-width:600px) and (max-width:723px){
+	header div.grid__unit ~ div.grid__unit:nth-child(2) {
+	width:275px;
+	}
+
+	
+	/*Primary Nav*/
+	header div.grid__unit ~ div.grid__unit:nth-child(3) {
+	width:310px;
+	}
+	
+	.navbar--menu .navitem{
+	padding:6px 10px;
+	}
+	
+	#utilitySection nav li a {
+		font-size:.8em;
+	}
+	
+	.nav--primary li a {
+		font-size:1em;
+	}
+
+}
+
+@media screen and (min-width:600px) and (max-width: 1020px){
+	
+/*Add "mobile" logo here*/
+	.bank-branding {
+		background:url('logo3-smaller.png') no-repeat;		
+	}	
+	
+	/*Banner*/
+header div.grid__unit ~ div.grid__unit:nth-child(2) {
+width:190px;
+}
+/*Primary Navigation Positioning*/
+header div.grid__unit ~ div.grid__unit:nth-child(3) {width: auto;margin-left:0px;}
+	
+}
+@media screen and (max-width: 810px) {
+	.navbar--menu .navitem{
+	       padding:6px 10px;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	html {
+		font-size:12px;
+	}
+	
+	/*Add "mobile" logo here*/
+	.bank-branding {
+		background:url('logo3-mobile.png') no-repeat;		
+	}
+	.wrapper {
+		min-width:auto;
+		padding:0px;
+	}
+	main {
+		padding:10px;
+	}
+	#utilitySection, .message--welcome {
+		float:none !important;
+	}
+	.message--welcome p:nth-child(1){
+		float:left; padding-left:10px; line-height:40px;
+	}
+	.message--welcome p:nth-child(2){
+		float:right; padding-right:10px; line-height:40px;
+	}
+	#utilitySection nav {
+		margin-left:70px;margin-top:40px;
+	}
+	.nav--utility li {
+		border:none; 
+	}
+	
+	.nav--utility li a {
+		color:#184a33;
+	}
+	.nav--utility li a:hover {
+		color:#184a33;
+		text-decoration:underline;
+	}
+	.nav--primary li {
+		border-bottom: 1px solid #333333; background:#fff;
+	}
+	/*Primary Nav*/
+	
+	/*Primary Navigation Positioning*/
+header div.grid__unit ~ div.grid__unit:nth-child(3) {
+margin-left:0;
+}
+
+	header div.grid__unit ~ div.grid__unit:nth-child(3) {
+	width:100%;
+	}
+
+	.nav--primary li a{
+		line-height:30px; padding:5px 0;
+	}
+	.page--footer {
+		 padding-bottom:0px;
+		 margin-bottom:-90px;
+		 position:relative;
+	}
+	
+}
